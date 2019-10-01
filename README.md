@@ -5,20 +5,20 @@ React component that allow selecting week per year
 
 ## Features
 
-<img src="https://raw.githubusercontent.com/fozg/react-week-day-picker/example/react-week-day-picker.png" />
+<img src="https://raw.githubusercontent.com/fozg/react-week-day-picker/stories/react-week-day-picker.png" />
 
 ## Installation
 
 Install using [Yarn](https://yarnpkg.com):
 
 ```sh
-yarn add react-week-day-picker
+yarn add @fozg/react-week-day-picker
 ```
 
 or NPM:
 
 ```sh
-npm install react-week-day-picker --save
+npm install npm i @fozg/react-week-day-picker --save
 ```
 
 ## Usage

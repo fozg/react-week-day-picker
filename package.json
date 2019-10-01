@@ -1,5 +1,5 @@
 {
-  "name": "react-week-day-picker",
+  "name": "@fozg/react-week-day-picker",
   "version": "0.0.0",
   "description": "Week day picker for React",
   "main": "react-week-day-picker.cjs.js",
