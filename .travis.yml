@@ -7,8 +7,8 @@ script:
   - yarn test --coverage
   - yarn tsc
   - yarn storybook:build
-after_success:
-  - yarn coveralls
+# after_success:
+  # - yarn coveralls
 deploy:
   provider: pages
   local_dir: example
