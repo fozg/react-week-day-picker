@@ -22,6 +22,7 @@ describe('getDatesOfWeek', () => {
     var dates = getDatesOfWeek(2, 2019).map(item => item.toISOString())
 
     expect(dates).toHaveLength(7)
+    expect(dates).toContain('2019-01-05T17:00:00.000Z')
     expect(dates).toContain('2019-01-06T17:00:00.000Z')
     expect(dates).toContain('2019-01-06T17:00:00.000Z')
     expect(dates).toContain('2019-01-07T17:00:00.000Z')
@@ -29,7 +30,6 @@ describe('getDatesOfWeek', () => {
     expect(dates).toContain('2019-01-09T17:00:00.000Z')
     expect(dates).toContain('2019-01-10T17:00:00.000Z')
     expect(dates).toContain('2019-01-11T17:00:00.000Z')
-    expect(dates).toContain('2019-01-12T17:00:00.000Z')
   })
 })
 
