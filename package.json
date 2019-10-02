@@ -2,14 +2,14 @@
   "name": "react-weekdays-picker",
   "version": "0.0.1",
   "description": "Week day picker for React",
-  "main": "react-week-day-picker.cjs.js",
-  "jsnext:main": "react-week-day-picker.esm.js",
-  "module": "react-week-day-picker.esm.js",
-  "unpkg": "react-week-day-picker.umd.min.js",
+  "main": "react-weekdays-picker.cjs.js",
+  "jsnext:main": "react-weekdays-picker.esm.js",
+  "module": "react-weekdays-picker.esm.js",
+  "unpkg": "react-weekdays-picker.umd.min.js",
   "author": "Fozg",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fozg/react-week-day-picker"
+    "url": "https://github.com/fozg/react-weekdays-picker"
   },
   "license": "MIT",
   "keywords": [
