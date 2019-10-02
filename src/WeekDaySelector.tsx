@@ -10,7 +10,7 @@ import {
   getMonthString,
 } from './utils'
 
-type Props = {
+export type Props = {
   onDateChanged: (date: Date) => void
   selectedDate?: Date
 }
