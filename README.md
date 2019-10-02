@@ -1,7 +1,8 @@
 # react-week-day-picker
 
-
 React component that allow selecting week per year
+
+## [Demo](https://fozg.github.io/react-week-day-picker/)
 
 ## Features
 
