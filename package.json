@@ -1,6 +1,6 @@
 {
   "name": "react-weekdays-picker",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Week day picker for React",
   "main": "dist/react-weekdays-picker.cjs.js",
   "jsnext:main": "dist/react-weekdays-picker.esm.js",
