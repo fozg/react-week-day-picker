@@ -1,4 +1,4 @@
-import WeekDaySelector from './WeekDaySelector'
+import WeekDaysPicker from './WeekDaysPicker'
 export * from './utils'
 
-export default WeekDaySelector
+export default WeekDaysPicker

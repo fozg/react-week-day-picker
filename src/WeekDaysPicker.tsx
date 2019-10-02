@@ -115,11 +115,16 @@ const Day = styled.div(
     fontSize: 14,
     textAlign: 'center',
     color: '#000',
-    minWidth: 40,
-    padding: '4px 15px 8px',
+    minWidth: 60,
+    minHeight: 50,
     cursor: 'pointer',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'column',
     '.weekDay': {
       fontWeight: 600,
+      lineHeight: 0.9,
     },
     ':hover': {
       background: '#cecece',

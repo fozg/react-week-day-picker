@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { getWeekDayOfCurrentYear } from './utils'
-import { $redorange } from './WeekDaySelector'
+import { $redorange } from './WeekDaysPicker'
 
 type Props = {
   onWeekSelected: (week: number) => void
