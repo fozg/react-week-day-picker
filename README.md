@@ -13,13 +13,13 @@ React component that allow selecting week per year
 Install using [Yarn](https://yarnpkg.com):
 
 ```sh
-yarn add @fozg/react-weekdays-picker
+yarn add react-weekdays-picker
 ```
 
 or NPM:
 
 ```sh
-npm install npm i @fozg/react-weekdays-picker --save
+npm install npm i react-weekdays-picker --save
 ```
 
 ## Usage
