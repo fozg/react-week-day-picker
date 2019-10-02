@@ -17,7 +17,10 @@ export type Props = {
 
 const currentWeek = getWeekDayOfCurrentYear()
 
-export default function({ onDateChanged, selectedDate = new Date() }: Props) {
+export default function({
+  onDateChanged = function() {},
+  selectedDate = new Date(),
+}: Props) {
   const [selected, setSelected] = useState(selectedDate)
   const [week, setWeek] = useState(currentWeek)
   const [dates, setDates] = useState(getDatesOfWeek(week))
